@@ -1,0 +1,135 @@
+@charset "UTF-8";
+/* CSS Document */
+
+html,body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto';
+}
+ 
+
+.headercontainer{
+    position: fixed;
+    background-color: white;
+    z-index: 9999;
+}
+
+#header{
+    height: 10vh;
+    min-height: 60px;
+    top: 0;
+    width: 100vw;
+}
+
+#header a:not(#logo){
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    font-weight: 300;
+    margin-left: 50px;
+}
+
+#logo img{
+    height: 5vh;
+    float: right;
+    margin-right: 100px;
+}
+
+#marquee{
+    background-color: #7df487;
+    height: 4vh;
+    width: 100vw;
+    font-weight: 300;
+    overflow: hidden;
+    min-height: 25px;
+    overflow:hidden;
+    white-space: nowrap;
+}
+
+#marquee p {
+    white-space: nowrap;
+}
+
+@media(max-width: 800px){
+    #header a:not(#logo){
+        display: none;
+    }
+
+    #logo img{
+        margin-right: 25px;
+    }
+}
+
+.postcontainer{
+    width: 80vw;
+    z-index: 1;
+    padding-top: 14vh;
+    margin-right: auto;
+    margin-left: auto;
+    min-height: 86vh;
+}
+
+.post{
+    width: 100%;
+    height: auto;
+}
+
+.footer{
+    bottom: 0px;
+    height: 30vh;
+}
+
+.footer img{
+    height: 5vh;
+    margin: 5vh;
+}
+
+b{
+    font-weight: 900;
+}
+
+h1{
+    line-height: 0.7em;
+}
+
+.shopimg{
+    border: 3px solid rgba(229, 225, 236, 1.00);
+    border-top: 25px solid rgba(229, 225, 236, 1.00);
+    border-radius: 5px;
+    float: left;
+    height: 50%;
+    box-shadow: 0px 0px 30px rgba(42, 44, 42, 0.5);
+    -moz-box-shadow: 0px 0px 30px rgba(42, 44, 42, 0.5);
+    -webkit-box-shadow: 0px 0px 30px rgba(42, 44, 42, 0.5);
+    -khtml-box-shadow: 0px 0px 30px rgba(42, 44, 42, 0.5); 
+}
+
+.shopimg:hover{
+    transform: scale(1.005);
+}
+
+.shopimg .imgcontainer img{
+    height: 100%;
+    z-index: 1;
+}
+
+.shopimg img{
+    top: -30px;
+    position: relative;
+    z-index: 2;
+    height: 24px;
+}
+
+.shopimg img{
+    display: inline-block;
+    height: 12px;
+}
+
+.follow{
+    font-weight: 300;
+    text-align: center;
+}
+
+.follow a{
+    text-decoration: none !important;
+}
