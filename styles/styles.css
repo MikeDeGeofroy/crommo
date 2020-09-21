@@ -61,17 +61,41 @@ html,body{
 }
 
 .postcontainer{
-    width: 80vw;
+    width: 75vw;
     z-index: 1;
-    padding-top: 14vh;
     margin-right: auto;
     margin-left: auto;
     min-height: 86vh;
 }
 
+.homepageslider{
+    width: 75vw;
+    z-index: 1;
+    padding-top: 18vh;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 .post{
+    width: 40%;
+    height: auto;
+}
+
+.post img{
+    width: 100%;
+}
+
+.slidepost{
     width: 100%;
     height: auto;
+}
+
+.slidepost img{
+    width: 49%;
+}
+
+.post h1{
+    width: 50%;
 }
 
 .footer{
