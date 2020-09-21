@@ -11,6 +11,8 @@ Los objectos 3d y sus texturas estan en `obj`
 
 Los elementos de CSS estan en `styles`
 
+Los archivos de Adobe XD (prototipos) estan en `user_interface`
+
 ### Por hacer:
 
 * Footer de la pagina
