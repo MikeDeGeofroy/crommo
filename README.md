@@ -28,3 +28,4 @@ Los archivos de Adobe XD (prototipos) estan en `user_interface`
   * Añadir informacion
 * Integrar objetos 3d
   * Ver donde y como para dar la mejor imagen posible.
+* Integracion con WordPress
